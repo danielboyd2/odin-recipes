@@ -1,0 +1,69 @@
+
+.header-banner {
+    background-image: url(./images/cartoon-chef\ .jpg);
+    background-size: cover;
+    background-position: top;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+}
+
+.cartoon-chef {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    padding-left: 20px;
+    justify-content: flex-start;
+    z-index: 3;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.banner-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    margin-right: 340px;
+    margin-top: 200px;
+}
+
+.banner-subtitle {
+    font-size: 2rem;
+    color: black;
+    margin-right: 340px;
+}
+
+.recipes-list {
+    font-size: 40px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+    background-color:lightblue;
+    
+}
+
+.front-page-links { 
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color:lightcoral;
+    display: inline-block;
+    text-align: left;
+}
+
+ul {
+    padding-left: 0;
+    list-style-position: inside;
+    margin: 0;
+}
+
+.ingredients {
+    color: rgb(73, 73, 183);
+}
+
